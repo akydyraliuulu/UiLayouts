@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">UILayouts</string>
+    <string name="question_name">Как вас зовут?</string>
+    <string name="question_about_yourself">О себе</string>
+    <string name="name">Айпери</string>
+    <string name="about_yourself">Расскажите немного о себе…</string>
+    <string name="question_date">Дата рождения</string>
+    <string name="date">08 Августа, 1993</string>
+    <string name="question_gender">Пол</string>
+    <string name="gender_male">Мужской</string>
+    <string name="flirt">Познакомлюсь для флирта</string>
+    <string name="relations">Хочу серьезные отношения</string>
+    <string name="bored">Скучно, хочу повеселиться</string>
+    <string name="gender_female">Женский</string>
+    <string name="question_goal">Цель</string>
+    <string name="gender">Выберите пол</string>
+    <string name="slash">/</string>
+    <string name="goal">Отметьте одну из целей</string>
+    <string name="save">Сохранить</string>
+    <string name="show_profile">Показать профиль</string>
+    <string name="views">ПРОСМОТРОВ</string>
+    <string name="likes_me">НРАВЛЮСЬ</string>
+    <string name="i_like">НРАВЯТСЯ</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="advices">Советы MeetApp</string>
+    <string name="supports">Поддержка</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="profile_photo">profile_photo</string>
+    <string name="reciprocity">Взаимности</string>
+    <string name="all">ВСЕ</string>
+    <string name="chats">Чаты</string>
+    <string name="free_chat">Здесь будут отображаться ваши активные чаты</string>
+    <string name="free_reciprocity">Ставьте больше отметок «Нравится», чтобы получать взаимности</string>
+</resources>

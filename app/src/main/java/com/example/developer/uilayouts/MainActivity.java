@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 Animation startAnimation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.press_button);
                 save_btn.startAnimation(startAnimation);
                 Toast.makeText(getApplicationContext(), "Saved", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, ChatActivity.class);
+                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
                 startActivity(intent);
             }
         });

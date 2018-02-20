@@ -15,17 +15,17 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.profile_activity);
 
-        edit_profile = (LinearLayout) findViewById(R.id.edit_profile_layout);
-        edit_profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Animation startAnimation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.press_button);
-                edit_profile.startAnimation(startAnimation);
-                Intent intent = new Intent(ProfileActivity.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//        edit_profile = (LinearLayout) findViewById(R.id.edit_profile_layout);
+//        edit_profile.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Animation startAnimation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.press_button);
+//                edit_profile.startAnimation(startAnimation);
+//                Intent intent = new Intent(ProfileActivity.this, MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }

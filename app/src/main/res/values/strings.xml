@@ -39,5 +39,21 @@
     <string name="skip">Пропустить</string>
     <string name="like">Нравится</string>
     <string name="write">Написать</string>
+    <string name="send">ОТПРАВИТЬ</string>
     <string name="sympathy">Вы проявили симпатию</string>
+    <string name="feedback_help">Чем мы можем вам помочь?</string>
+    <string name="feedback_about">Технические неполадки, предложения по улучшению и другие моменты, о которых Вы хотели бы нам сообщить</string>
+    <string name="feedback_question">Есть вопросы? Мы поможем вам!</string>
+    <string name="sign_in_sms">Вход через приглашение</string>
+    <string name="about_sms">Для создания нового аккаунта или входа в имеющийся, нам нужен ваш номер, чтобы мы могли отправить на него приглашение</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="code_phone_number">+996</string>
+    <string name="get_code">ПОЛУЧИТЬ КОД</string>
+    <string name="hint_sms">(* * *) * * * * * *</string>
+    <string name="hint_code">* * * *</string>
+    <string name="code_sms">Код из СМС</string>
+    <string name="get_callback">Получение приглашения</string>
+    <string name="sms_sending">Мы отправили СМС с приглашением на номер </string>
+    <string name="number">+996 (772) 17 44 58</string>
+    <string name="sms_sending_continue">оно должно дойти в течении 3 минут</string>
 </resources>

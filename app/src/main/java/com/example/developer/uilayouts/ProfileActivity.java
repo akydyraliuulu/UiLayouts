@@ -6,26 +6,61 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    private LinearLayout edit_profile;
+    private TextView welcome;
+    private Button facebook;
+    private Button sms;
+    private Button google;
+    private TextView confidentiality;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profile_activity);
+        setContentView(R.layout.sign_in_layout);
 
-//        edit_profile = (LinearLayout) findViewById(R.id.edit_profile_layout);
-//        edit_profile.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Animation startAnimation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.press_button);
-//                edit_profile.startAnimation(startAnimation);
-//                Intent intent = new Intent(ProfileActivity.this, MainActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        welcome = (TextView) findViewById(R.id.welcome);
+        facebook = (Button) findViewById(R.id.facebook);
+        sms = (Button) findViewById(R.id.sms);
+        google = (Button) findViewById(R.id.google);
+        confidentiality = (TextView) findViewById(R.id.confidentiality);
+
+
+        RadioGroup radio_group_locale = (RadioGroup) findViewById(R.id.radio_group_locale);
+        radio_group_locale.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
+
+                switch (checkedId) {
+                    case R.id.russian:
+                        welcome.setText(R.string.welcome);
+                        facebook.setText(R.string.facebook_sign_in);
+                        sms.setText(R.string.sms_sign_in);
+                        google.setText(R.string.google_sign_in);
+                        confidentiality.setText(R.string.registration_text);
+                        break;
+                    case R.id.kyrgyz:
+                        welcome.setText(R.string.welcome_ky);
+                        facebook.setText(R.string.facebook_sign_in_ky);
+                        sms.setText(R.string.sms_sign_in_ky);
+                        google.setText(R.string.google_sign_in_ky);
+                        confidentiality.setText(R.string.registration_text_ky);
+                        break;
+                    case R.id.english:
+                        welcome.setText(R.string.welcome_en);
+                        facebook.setText(R.string.facebook_sign_in_en);
+                        sms.setText(R.string.sms_sign_in_en);
+                        google.setText(R.string.google_sign_in_en);
+                        confidentiality.setText(R.string.registration_text_en);
+                    default:
+                        break;
+                }
+            }
+        });
     }
 }

@@ -122,7 +122,6 @@
             android:layout_gravity="center"
             android:layout_marginBottom="19dp"
             android:layout_marginTop="29dp"
-            android:background="@drawable/round_button"
             android:elevation="1dp"
             android:orientation="horizontal">
 
@@ -132,6 +131,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="start"
                 android:layout_weight="1"
+                android:background="@drawable/round_button_left"
                 android:drawableLeft="@drawable/ic_next_inactive"
                 android:drawablePadding="15dp"
                 android:text="@string/skip"
@@ -147,6 +147,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="start"
                 android:layout_weight="1"
+                android:background="@drawable/round_button_right"
                 android:drawableLeft="@drawable/ic_like"
                 android:drawablePadding="15dp"
                 android:text="@string/like"

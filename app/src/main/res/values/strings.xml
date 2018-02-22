@@ -32,7 +32,7 @@
     <string name="about_me">Обо мне</string>
     <string name="all">ВСЕ</string>
     <string name="chats">Чаты</string>
-    <string name="free_chat">Здесь будут отображаться ваши активные чаты</string>
+    <string name="free_chat">Здесь будут отображаться \n ваши активные чаты</string>
     <string name="no_information">Айпери пока не сообщила ничего о себе</string>
     <string name="free_reciprocity">Ставьте больше отметок «Нравится», чтобы получать взаимности</string>
     <string name="enter_message">Введите текст</string>
@@ -56,4 +56,22 @@
     <string name="sms_sending">Мы отправили СМС с приглашением на номер </string>
     <string name="number">+996 (772) 17 44 58</string>
     <string name="sms_sending_continue">оно должно дойти в течении 3 минут</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="facebook_sign_in">Войти через Facebook</string>
+    <string name="sms_sign_in">Войти через СМС-код</string>
+    <string name="google_sign_in">Войти через Google</string>
+    <string name="registration_text">Регистрируюясь, вы соглашаетесь с условиями <u>пользовательского соглашения</u></string>
+    <string name="russian">Русский</string>
+    <string name="kyrgyz">Кыргызча</string>
+    <string name="english">English</string>
+    <string name="welcome_ky">Кош келиңиз!</string>
+    <string name="facebook_sign_in_ky">Facebook менен кирүү</string>
+    <string name="sms_sign_in_ky">СМС-код аркылуу кирүү</string>
+    <string name="google_sign_in_ky">Google менен кирүү</string>
+    <string name="registration_text_ky">Регистрируюясь, вы соглашаетесь с условиями <u>пользовательского соглашения</u></string>
+    <string name="welcome_en">You are welcome!</string>
+    <string name="facebook_sign_in_en">Sign in with Facebook</string>
+    <string name="sms_sign_in_en">Sign in with SMS-code</string>
+    <string name="google_sign_in_en">Sign in with Google</string>
+    <string name="registration_text_en">By registering, you agree to the terms of the \n <u> user agreement</u></string>
 </resources>

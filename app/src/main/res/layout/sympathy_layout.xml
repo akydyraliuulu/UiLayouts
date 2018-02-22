@@ -30,7 +30,7 @@
         android:layout_height="60dp"
         android:layout_marginLeft="8dp"
         android:layout_weight="1"
-        android:background="@drawable/round_button"
+        android:background="@drawable/round_button_left"
         android:elevation="1dp"
         android:text="@string/sympathy"
         android:textAllCaps="false"

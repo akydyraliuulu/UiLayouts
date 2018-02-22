@@ -8,7 +8,8 @@
     <!-- The radius makes the corners rounded -->
     <corners
         android:bottomLeftRadius="30dp"
-        android:bottomRightRadius="30dp"
+        android:bottomRightRadius="0dp"
         android:topLeftRadius="30dp"
-        android:topRightRadius="30dp" />
+        android:topRightRadius="0dp" />
+    <padding android:left="30dp" />
 </shape>
